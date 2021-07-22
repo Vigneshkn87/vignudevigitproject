@@ -25,6 +25,8 @@ namespace vignudevigitproject
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.UseAuthentication(); //Vignesh Changes
 
             app.UseRouting();
 
